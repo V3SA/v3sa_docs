@@ -42,7 +42,12 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
+      colorMode: {
+        defaultMode: "dark",
+        respectPrefersColorScheme: false,
+        disableSwitch: false,
+      },
       navbar: {
         title: "DaPP - Decentralized Automated Payment Processing",
         logo: {
@@ -113,7 +118,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
+    },
 };
 
 module.exports = config;
