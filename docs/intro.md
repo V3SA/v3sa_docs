@@ -4,44 +4,53 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **DaPP in less than 5 minutes**.
 
 ## Getting Started
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Get started by **creating a new contract**.
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [Phantom Wallet](https://phantom.app/):
+  - It's our wallet of choice, and there's an app!
+- Some Tokens to send!
+  - Currently for v1, we only support the Wrapped Sol Token
+  - For ease of use, we wrap the Sol for you, so you just have to have Sol in your wallet
+  - If you're testing with Devnet, [airdrop](https://solfaucet.com/) yourself some Sol
+- The Public Key of the wallet you're going to send tokens to
+  - This can be another wallet you own, a friend's wallet or someone else's wallet
+  - **It can't be the same Public Key of the wallet you're connected with**
 
-## Generate a new site
+## Create a DaPP Payment Contract
 
-Generate a new Docusaurus site using the **classic template**.
+Visit [DaPP](https://dapp-frontend-cyan.vercel.app/)
 
-The classic template will automatically be added to your project after you run the command:
+Connect your **Phantom Wallet**
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+![Connect Phantom Wallet](/img/tutorial/select_wallet.png)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Select **Create Contract**
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+![Create Contract](/img/tutorial/create_a_contract.png)
 
-## Start your site
+Enter your payment terms in the form and submit. You'll need to know.
 
-Run the development server:
+- Who you're paying
+  - The `Public Key` of the person you're going to pay
+- What token you'll be paying with
+  - By default it's going to be `Wrapped Sol`
+- How much you're paying
+  - This is the standard denomination of value for the token.
+  - To get technical, this is number is multiplied by `10^(decimals)` to calculate the total `amount` of tokens to send
+  - eg. `1` = `1 Sol` which is equivalent to `1,000,000,000` lamports because it has `9` decimals
+- How much time the contract should be open for
+  - This is determined in `days` to make it easy. If you want to pay someone within the day, you can use decimals to denote this.
+  - eg. 6 hours = `.25` days. 1 year is `365` days. etc..
+- How many payments should the payee receive
+  - Payments are how many times the payee can get paid from the main escrow account to their custodial token account
+  - Payments are equally distanced between time intervals
+  - eg. `7` payments for a `7 day` time period means the payee can withdraw `once a day`
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Press submit and you're done!<br />
+You can still cancel this contract after it's created for free - given the payee has not accepted it yet.
