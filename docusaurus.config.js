@@ -46,8 +46,8 @@ const config = {
       navbar: {
         title: "- Home Page",
         logo: {
-          alt: "V3SA Logo",
-          src: "img/v3sa.png",
+          alt: "Triple Box Logo",
+          src: "img/triplebox.png",
         },
         items: [
           {
