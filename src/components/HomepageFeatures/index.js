@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Blue Box Suites',
-    Svg: require('@site/static/img/triplebox.svg').default,
+    Svg: require('@site/static/img/bluebox.svg').default,
     description: (
       <>
         Including: DaPP Protocol and - REDACTED -
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Purple Box Suites',
-    Svg: require('@site/static/img/triplebox.svg').default,
+    Svg: require('@site/static/img/purplebox.svg').default,
     description: (
       <>
         - REDACTED -
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Red Box Suites',
-    Svg: require('@site/static/img/triplebox.svg').default,
+    Svg: require('@site/static/img/redbox.svg').default,
     description: (
       <>
         - REDACTED -
