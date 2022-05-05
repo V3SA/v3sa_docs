@@ -47,7 +47,7 @@ const config = {
         title: "V3SA - Building a bridge between DeFI and Traditional Finance.",
         logo: {
           alt: "V3SA Logo",
-          src: "img/v3sa.png",
+          src: "img/header.png",
         },
         items: [
           {
@@ -89,7 +89,7 @@ const config = {
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/DaPP_Protocol",
+                href: "https://twitter.com/BoxSuites_",
               },
             ],
           },

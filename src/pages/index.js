@@ -13,15 +13,15 @@ function HomepageHeader() {
     <header className={clsx("hero", styles.heroBanner)}>
       <div className="container">
         {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
-        <img className={styles.logo} src="img/logo.png" />
+        <img className={styles.logo} src="img/v3sa.png" />
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <img className={styles.logo} src="img/piggy.png" />
+        <img className={styles.logo} src="img/box_suites_logo.png" />
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            DaPP - 5min ⏱️
+            Welcome - Box Suites 📦
           </Link>
         </div>
       </div>
