@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "DaPP",
-  tagline: "Payment Processing on Solana! Pay. Build. Profit!",
-  url: "https://your-docusaurus-test-site.com",
+  title: " ",
+  tagline: "Building the bridge between DeFi and Traditional Finance with a suite of unique protocols.",
+  url: "https://docs.v3sa.finance",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.png",
+  favicon: "img/header.png",
   organizationName: "V3SA", // Usually your GitHub org/user name.
-  projectName: "DaPP", // Usually your repo name.
+  projectName: "Box Suites", // Usually your repo name.
 
   presets: [
     [
@@ -25,13 +25,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/v3sa",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/v3sa/BoxSuites"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -44,22 +44,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "DaPP - Decentralized Automated Payment Processing",
+        title: "- Home Page",
         logo: {
-          alt: "DaPP Logo",
-          src: "img/piggy.png",
+          alt: "Triple Box Logo",
+          src: "img/triplebox.png",
         },
         items: [
           {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Learn",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "Updates", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
+            href: "https://phantom.app/",
+            label: "Install Wallet",
             position: "right",
           },
         ],
@@ -71,7 +71,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Start",
                 to: "/docs/intro",
               },
             ],
@@ -80,16 +80,16 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Github - Coming Soon",
-                href: "https://twitter.com/DaPP_Protocol", // TODO: fill this in
+                label: "Github",
+                href: "https://Github.com/v3sa", // TODO: fill this in
               },
               {
-                label: "Discord - Coming Soon",
-                href: "https://twitter.com/DaPP_Protocol", // TODO: fill this in
+                label: "Website",
+                href: "https://v3sa.finance", // TODO: fill this in
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/DaPP_Protocol",
+                href: "https://twitter.com/v3sa_fi",
               },
             ],
           },
@@ -97,12 +97,12 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
+                label: "Updates",
                 to: "/blog",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Rick",
+                href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
               },
             ],
           },
