@@ -15,7 +15,7 @@ function HomepageHeader() {
         {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
         <img className={styles.logo} src="img/v3sa.png" />
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <img className={styles.logo} src="img/box_suites_logo.png" />
+        <img className={styles.logo} src="img/Box_Logo_Transparent.png" />
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
