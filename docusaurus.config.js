@@ -6,13 +6,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Homepage",
-  tagline: "Bridging the gap between traditional finance and defi with a suite of unique protocols.",
+  title: " ",
+  tagline: "Building the bridge between DeFi and Traditional Finance with a suite of unique protocols.",
   url: "https://docs.v3sa.finance",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.png",
+  favicon: "img/header.png",
   organizationName: "V3SA", // Usually your GitHub org/user name.
   projectName: "Box Suites", // Usually your repo name.
 
@@ -44,22 +44,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "V3SA - Building a bridge between DeFI and Traditional Finance.",
+        title: "- Home Page",
         logo: {
           alt: "V3SA Logo",
-          src: "img/header.png",
+          src: "img/v3sa.png",
         },
         items: [
           {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Learn",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "Updates", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
+            href: "https://phantom.app/",
+            label: "Install Wallet",
             position: "right",
           },
         ],
@@ -71,7 +71,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Start",
                 to: "/docs/intro",
               },
             ],
@@ -84,12 +84,12 @@ const config = {
                 href: "https://Github.com/v3sa", // TODO: fill this in
               },
               {
-                label: "Discord - Coming Soon",
-                href: "https://twitter.com/v3sa_fi", // TODO: fill this in
+                label: "Website",
+                href: "https://v3sa.finance", // TODO: fill this in
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/BoxSuites_",
+                href: "https://twitter.com/v3sa_fi",
               },
             ],
           },
@@ -97,12 +97,12 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
+                label: "Updates",
                 to: "/blog",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Rick",
+                href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
               },
             ],
           },

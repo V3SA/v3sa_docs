@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **V3SA Finance in less than 5 minutes**.
 
-## Getting Started
+## What is V3SA Finance?
 
 Get started by **creating a new site**.
 

@@ -15,11 +15,11 @@ function HomepageHeader() {
         {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
         <img className={styles.logo} src="img/v3sa.png" />
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <img className={styles.logo} src="img/Box_Logo_Transparent.png" />
+        <img className={styles.logo} src="img/boxlogo.png" />
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro"
+            to="/docs/box-suites/blue-box-suites"
           >
             Welcome - Box Suites 📦
           </Link>
@@ -33,8 +33,8 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} | V3SA Docs`}
-      description="Decentralized Payment Processing Protocol; Built on Solana. Pay | Build | Profit"
+      title={`${siteConfig.title}  V3SA Docs`}
+      description="Building the bridge between DeFI and Traditional Finance."
     >
       <HomepageHeader />
       <main>
