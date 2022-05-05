@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "DaPP",
-  tagline: "Payment Processing on Solana! Pay. Build. Profit!",
-  url: "https://your-docusaurus-test-site.com",
+  title: "Homepage",
+  tagline: "Bridging the gap between traditional finance and defi with a suite of unique protocols.",
+  url: "https://docs.v3sa.finance",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
   organizationName: "V3SA", // Usually your GitHub org/user name.
-  projectName: "DaPP", // Usually your repo name.
+  projectName: "Box Suites", // Usually your repo name.
 
   presets: [
     [
@@ -25,13 +25,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/v3sa",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/v3sa/BoxSuites"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -44,10 +44,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "DaPP - Decentralized Automated Payment Processing",
+        title: "V3SA - Building a bridge between DeFI and Traditional Finance.",
         logo: {
-          alt: "DaPP Logo",
-          src: "img/piggy.png",
+          alt: "V3SA Logo",
+          src: "img/v3sa.png",
         },
         items: [
           {
@@ -80,12 +80,12 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Github - Coming Soon",
-                href: "https://twitter.com/DaPP_Protocol", // TODO: fill this in
+                label: "Github",
+                href: "https://Github.com/v3sa", // TODO: fill this in
               },
               {
                 label: "Discord - Coming Soon",
-                href: "https://twitter.com/DaPP_Protocol", // TODO: fill this in
+                href: "https://twitter.com/v3sa_fi", // TODO: fill this in
               },
               {
                 label: "Twitter",
