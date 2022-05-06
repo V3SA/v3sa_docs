@@ -71,8 +71,8 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Start",
-                to: "/docs/intro",
+                label: "Blue Box Suites",
+                to: "/docs/box-suites/blue-box-suites",
               },
             ],
           },

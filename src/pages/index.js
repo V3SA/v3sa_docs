@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/box-suites/blue-box-suites"
+            to="/docs/intro"
           >
             Welcome - Box Suites 📦
           </Link>
