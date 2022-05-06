@@ -56,7 +56,7 @@ const config = {
             position: "left",
             label: "Learn",
           },
-          { to: "/blog", label: "Updates", position: "left" },
+          { to: "/blog/welcome", label: "Updates", position: "left" },
           {
             href: "https://phantom.app/",
             label: "Install Wallet",
@@ -98,7 +98,7 @@ const config = {
             items: [
               {
                 label: "Updates",
-                to: "/blog",
+                to: "/blog/welcome",
               },
               {
                 label: "Rick",
@@ -110,7 +110,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} V3SA, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
