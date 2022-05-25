@@ -17,11 +17,8 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <img className={styles.logo} src="img/boxlogo.png" />
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/box-suites/blue-box-suites"
-          >
-            Welcome - Box Suites 📦
+          <Link className="button button--secondary button--lg" to="docs/intro">
+            Welcome - Introduction 📦
           </Link>
         </div>
       </div>

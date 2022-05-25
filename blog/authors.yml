@@ -1,17 +1,17 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+morpheus:
+  name: Morpheus
+  title: Web3 Dev & Co-founder @ V3SA
+  url: https://twitter.com/V3SA_morpheus
+  image_url: https://pbs.twimg.com/profile_images/1513049570611191809/cgYHFJmf_400x400.jpg
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+tank:
+  name: Tank
+  title: Web3 Architect & Founder @ Facebook
+  url: https://twitter.com/V3SA_Tank
+  image_url: https://pbs.twimg.com/profile_images/1514665932743798788/X8hP5OE5_400x400.jpg
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+sentinel:
+  name: Sentinel
+  title: Web3 Dev @ Co-founder @ V3SA
+  url: https://twitter.com/V3SA_sentinel
+  image_url: https://pbs.twimg.com/profile_images/1496425540923768832/wqWNLGaP_400x400.jpg
