@@ -44,7 +44,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "- Home Page",
+        title: "Home",
         logo: {
           alt: "Triple Box Logo",
           src: "img/triplebox.png",
@@ -54,9 +54,9 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Learn",
+            label: "📦  Learn",
           },
-          { to: "/blog", label: "Updates", position: "left" },
+          { to: "/blog", label: "📦  Updates", position: "left" },
           {
             href: "https://phantom.app/",
             label: "Install Wallet",
